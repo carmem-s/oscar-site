@@ -22,6 +22,12 @@ title: Oscar  Broughton
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Oscar Broughton
-baseurl: "oscarbroughton.work" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "oscarbroughton.work" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
+
+# Assets
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _scss
+  style: :compressed
