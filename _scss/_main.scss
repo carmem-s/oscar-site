@@ -108,7 +108,10 @@ hr {
 #section01:checked ~ #items01 li,
 #section02:checked ~ #items02 li,
 #section03:checked ~ #items03 li,
-#section04:checked ~ #items04 li {
+#section04:checked ~ #items04 li,
+#section05:checked ~ #items05 li,
+#section06:checked ~ #items06 li,
+#section07:checked ~ #items07 li {
 	max-height: 100rem;
   opacity: 1;
 }
