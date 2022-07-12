@@ -117,11 +117,14 @@ hr {
 }
 
 .circle-image {
-  position: absolute;
-  right: 10%;
   background-image: url(../oscar-photo.jpeg);
   background-size: cover;
   height: 12rem;
   width: 12rem;
   border-radius: 50%;
+  position: absolute;
+  right: 10%;
+  @media only screen and (max-device-width: 1024px) {
+    position: initial;
+  }
 }
